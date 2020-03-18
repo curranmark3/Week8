@@ -1,0 +1,62 @@
+body {
+    background-image: url(../images/Saint_Peters.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header p {
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+#gender{
+    width: 30px;
+}
+
+input [type="radio"] {
+    width: 10px;
+}
+
+#internet {
+    width: 10px;
+}
+
+.marginl {
+    width: 10px;
+}
+
+input [type="chcekbox"] {
+    width: 10px;
+}
+
+#button {
+    margin-left: 138px;
+    
+}
+
+#button, #reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
